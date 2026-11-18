@@ -7,8 +7,6 @@ Amity School of Engineering & Technology, Amity University Punjab, Mohali, India
 
 *Accepted at the International Conference on Emerging Digital Intelligence and Generative Engineering (EDIGE 2026), IEEE.*
 
-![Clean space → compressed (broken) space → Procrustes repair](figures/overview.png)
-
 ## TL;DR
 Compression damages sentence-embedding spaces in different ways. **Distillation mostly rotates the space**, so a closed-form Procrustes rotation recovers roughly half of the lost accuracy. **Quantisation noise and dimension pruning** leave different geometric signatures that rotation cannot fix. We introduce the **Procrustes Repairability Score (PRS)**, a parameter-free diagnostic that predicts from a small calibration set whether repair will work.
 
